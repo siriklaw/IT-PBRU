@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 MODE_PRIVATE, null);
         sqLiteDatabase.delete(MyManage.user_table, null, null);
 
-    }//Delete All SQLite.
+    }//Delete All SQLite
 
         // Shif + command + enter
     public void clicksignUpMain(View view ) {
