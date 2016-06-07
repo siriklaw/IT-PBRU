@@ -7,10 +7,14 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    private MyManage mymanage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mymanage = new MyManage(this);
     } // Main Method จะมี "  เสมอ
         // Shif + command + enter
     public void clicksignUpMain(View view ) {
