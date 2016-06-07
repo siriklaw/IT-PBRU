@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mymanage = new MyManage(this);
+
+        //test add new user
+        //mymanage.addNewUser("1234", "name", "sur", "user", "pass");
+
     } // Main Method จะมี "  เสมอ
         // Shif + command + enter
     public void clicksignUpMain(View view ) {
