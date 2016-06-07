@@ -10,6 +10,7 @@ public class signUpActivity extends AppCompatActivity {
     //
     private EditText name_EditText, sureName_EditText, user_EditText, password_EditText;
     private String nameString, sureName_String, user_String, password_String;
+    private static final String urLUpload = "http://swiftcodingthai.com/pbru2/add_user_master.php";
 
 
     @Override
@@ -38,8 +39,16 @@ public class signUpActivity extends AppCompatActivity {
 
         }else {
             //False
+            uploadValueToServer();
+
         }
     }//clickSingUPSing
+
+    private void uploadValueToServer(){
+
+
+    }//UploadToServer
+
 
     private boolean checkSpace() {
         boolean result = true;
